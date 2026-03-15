@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 header {
     margin: 0;
     padding: 0;
@@ -29,9 +30,9 @@ body {
     margin-top: 20px;
 }
 
-.Gigi Riva {
+.Gigi {
     font-size: 30px;
-    color: rgb(90, 54, 6);
+   color: rgb(3, 12, 62);
     margin-top: 20px;
 }
 
@@ -42,9 +43,20 @@ body {
     background-color: rgb(2, 9, 48);
     border-radius: 8px;
     color: white;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border: 2px solid rgb(3, 12, 62);
     text-align: left;
     
+}
+
+.tagline {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    background-color: rgba(195, 9, 9, 0.918);
+    border-radius: 8px;
+    color: white;
+   border: 2px solid rgb(3, 12, 62);
+    text-align: left;
 }
 
 .gallery {
@@ -57,21 +69,18 @@ body {
 
 .linedecorative {
     border: 0;
-    height: 3px; 
+    height: 1px; 
     background-color: rgba(125, 4, 4, 0.636);
     width: 100%; 
     margin: 20px auto;
 }
 
-
-
 footer {
     margin-top: 10px;
     padding: 10px;
-    background-color: rgb(2, 10, 55);
-    color: white;
+    background-color: white;
+    color: rgb(3, 12, 62);
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     text-size-adjust: 5px;
 }
 
