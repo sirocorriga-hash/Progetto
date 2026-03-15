@@ -42,13 +42,10 @@ body {
     text-align: left;
 }
 
-.blocco 2 {
-    flex: 1;
-    min-width: 300px;
-    padding: 20px;
-    background-color: rgb(3, 11, 57);
-    border-radius: 8px;
-    color: white;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    text-align: left;
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
 }
