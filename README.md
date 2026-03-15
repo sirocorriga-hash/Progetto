@@ -1,127 +1,92 @@
-# Progetto Siro
 
-## Descrizione
 
-Questo progetto è una semplice pagina web statica realizzata in **HTML** che presenta uno spazio personale dell'autore.
-La pagina include una breve introduzione, informazioni personali, interessi, immagini e collegamenti ai social media.
+# Cagliari Calcio – Web Page Project
 
-L'obiettivo del progetto è creare una **pagina web personale di presentazione** utilizzando le basi di HTML.
+## Overview
 
----
+This project is a **static website** dedicated to **Cagliari Calcio Football Club**.
+It was developed as a front-end practice project to explore the fundamentals of **HTML structure, semantic elements, and CSS styling**.
 
-## Struttura della pagina
+The webpage includes an introduction to the club, historical references, a visual gallery, and personal links to the author's social profiles.
 
-La pagina è composta dalle seguenti sezioni principali:
+## Features
 
-### 1. Introduzione
+* Structured **HTML5 semantic layout**
+* Introductory section about the club
+* Historical content about **Cagliari Calcio**
+* Section dedicated to the **1970 championship**
+* Image gallery displaying historical jerseys
+* Social media and personal reference links
+* Footer with copyright information
 
-Contiene:
+## Technologies
 
-* Titolo principale **"Welcome to My Space"**
-* Un paragrafo introduttivo di testo
-
-### 2. Who I'm
-
-Una sezione che descrive brevemente l'autore.
-
-### 3. My Interests
-
-Una sezione dedicata agli interessi personali.
-
-### 4. Immagini
-
-La pagina include due immagini:
-
-* Un paesaggio irlandese
-* Il mare della Sardegna
-
-Le immagini sono caricate dalla cartella:
-
-```
-immagini/
-```
-
-### 5. Social e riferimenti
-
-Un articolo con link esterni a:
-
-* Instagram
-* LinkedIn
-* Sardegna Turismo
-* Informazioni sulla città di Iglesias
-
-I link si aprono in una **nuova scheda** grazie all'attributo:
-
-```
-target="_blank"
-```
-
-### 6. Footer
-
-Contiene il copyright dell'autore.
-
----
-
-## Tecnologie utilizzate
+This project was built using the following technologies:
 
 * **HTML5**
+* **CSS3**
 
-Non sono utilizzati:
-
-* CSS
-* JavaScript
-* Framework
-
----
-
-## Struttura del progetto
+## Project Structure
 
 ```
-progetto-siro/
+project-root
 │
 ├── index.html
-├── README.md
-└── immagini/
-    ├── immagine-1.jpg
-    └── immagine-2.jpg
+│
+├── CSS
+│   └── style.css
+│
+└── immagini
+    ├── Immagine 0.png
+    ├── Immagine 1.png
+    ├── Immagine 2.png
+    └── Immagine 3.png
 ```
 
----
+## Getting Started
 
-## Come utilizzare il progetto
+### 1. Clone the repository
 
-1. Clonare o scaricare il repository.
-2. Aprire il file:
+```
+git clone https://github.com/yourusername/project-name.git
+```
+
+### 2. Open the project
+
+Navigate to the project folder and open:
 
 ```
 index.html
 ```
 
-3. Visualizzarlo in qualsiasi browser (Chrome, Firefox, Edge, Safari).
+in any modern web browser.
 
----
+No additional dependencies or installations are required.
 
-## Possibili miglioramenti
+## Purpose of the Project
 
-Alcuni miglioramenti futuri potrebbero includere:
+The goal of this project is to:
 
-* Aggiungere **CSS** per migliorare il design.
-* Rendere la pagina **responsive**.
-* Correggere eventuali errori nei percorsi delle immagini.
-* Aggiungere **JavaScript** per funzionalità interattive.
-* Migliorare la struttura semantica HTML.
+* Practice **HTML semantic structure**
+* Improve understanding of **basic web layout**
+* Work with **CSS styling and page organization**
+* Build a simple but structured **static webpage**
 
----
-
-## Autore
+## Author
 
 **Siro Corriga**
 
-* Instagram: https://www.instagram.com/siro_____o/
-* LinkedIn: https://www.linkedin.com/in/siro-corriga/
+* Instagram: [https://www.instagram.com/siro_____o/](https://www.instagram.com/siro_____o/)
+* LinkedIn: [https://www.linkedin.com/in/siro-corriga/](https://www.linkedin.com/in/siro-corriga/)
 
----
+## Additional References
 
-## Licenza
+* Sardinia Tourism: [https://www.sardegnaturismo.it/](https://www.sardegnaturismo.it/)
+* City of Iglesias: [https://en.wikipedia.org/wiki/Iglesias,_Sardinia](https://en.wikipedia.org/wiki/Iglesias,_Sardinia)
 
-Questo progetto è creato per scopi educativi.
+## License
+
+This project is created for **educational purposes** and personal learning.
+
+
+
