@@ -66,12 +66,12 @@ body {
 
 
 footer {
-    margin-top: 20px;
-    padding: 20px;
+    margin-top: 10px;
+    padding: 10px;
     background-color: rgb(2, 10, 55);
     color: white;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    text-size-adjust: 14px;
+    text-size-adjust: 5px;
 }
 
