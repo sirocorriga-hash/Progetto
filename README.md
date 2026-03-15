@@ -1,92 +1,121 @@
+# Cagliari FC 1970 – Static Website
 
+A static front-end website dedicated to **Cagliari Football Club** and the historic **1970 Serie A championship**, the greatest achievement in the club’s history.
 
-# Cagliari Calcio – Web Page Project
+This project was created as a front-end practice to demonstrate the use of **semantic HTML, layout structuring, and CSS styling** to build a simple but visually organized sports-themed website.
 
-## Overview
+---
 
-This project is a **static website** dedicated to **Cagliari Calcio Football Club**.
-It was developed as a front-end practice project to explore the fundamentals of **HTML structure, semantic elements, and CSS styling**.
+## Project Overview
 
-The webpage includes an introduction to the club, historical references, a visual gallery, and personal links to the author's social profiles.
+The website presents a small showcase of the club, highlighting its history, the legendary championship season, and a tribute to one of its iconic figures.
+
+The layout includes:
+
+* A structured **header with navigation menu**
+* Informational **content sections**
+* A **visual gallery** of images
+* An **embedded YouTube video**
+* A styled **footer**
+
+The project focuses on clean HTML structure and separation of styling using CSS.
+
+---
 
 ## Features
 
-* Structured **HTML5 semantic layout**
-* Introductory section about the club
-* Historical content about **Cagliari Calcio**
-* Section dedicated to the **1970 championship**
-* Image gallery displaying historical jerseys
-* Social media and personal reference links
-* Footer with copyright information
+* Semantic **HTML5 layout**
+* External **CSS styling**
+* Navigation bar
+* Image gallery section
+* Embedded YouTube video player
+* Structured page sections
+* Simple and readable code organization
 
-## Technologies
+---
 
-This project was built using the following technologies:
+## Technologies Used
 
 * **HTML5**
 * **CSS3**
+* **YouTube Embed API**
+
+---
 
 ## Project Structure
 
 ```
-project-root
+cagliari-fc-1970/
 │
 ├── index.html
 │
-├── CSS
+├── CSS/
 │   └── style.css
 │
-└── immagini
-    ├── Immagine 0.png
-    ├── Immagine 1.png
-    ├── Immagine 2.png
-    └── Immagine 3.png
+├── immagini/
+│   ├── Immagine-0.png
+│   ├── Immagine-1.png
+│   ├── Immagine-2.png
+│   └── Immagine-3.png
+│
+└── README.md
 ```
+
+---
 
 ## Getting Started
 
-### 1. Clone the repository
+To run the project locally:
+
+1. Clone the repository
 
 ```
-git clone https://github.com/yourusername/project-name.git
+git clone https://github.com/your-username/cagliari-fc-1970.git
 ```
 
-### 2. Open the project
-
-Navigate to the project folder and open:
+2. Navigate into the project folder
 
 ```
-index.html
+cd cagliari-fc-1970
 ```
 
-in any modern web browser.
+3. Open the `index.html` file in your browser.
 
-No additional dependencies or installations are required.
+No build tools or dependencies are required since this is a **static website**.
 
-## Purpose of the Project
+---
 
-The goal of this project is to:
+## Future Improvements
 
-* Practice **HTML semantic structure**
-* Improve understanding of **basic web layout**
-* Work with **CSS styling and page organization**
-* Build a simple but structured **static webpage**
+Possible future developments include:
+
+* Responsive design for mobile devices
+* Multiple pages (History, Team, Contact)
+* Interactive elements with JavaScript
+* Improved accessibility
+* Contact form implementation
+* CSS animations and transitions
+
+---
+
+## Learning Goals
+
+This project was developed to practice:
+
+* Structuring web pages with **semantic HTML**
+* Managing layouts with **CSS**
+* Organizing assets within a project
+* Embedding multimedia content in a webpage
+
+---
 
 ## Author
+Siro Corriga
+Developed as a **front-end learning project**.
 
-**Siro Corriga**
-
-* Instagram: [https://www.instagram.com/siro_____o/](https://www.instagram.com/siro_____o/)
-* LinkedIn: [https://www.linkedin.com/in/siro-corriga/](https://www.linkedin.com/in/siro-corriga/)
-
-## Additional References
-
-* Sardinia Tourism: [https://www.sardegnaturismo.it/](https://www.sardegnaturismo.it/)
-* City of Iglesias: [https://en.wikipedia.org/wiki/Iglesias,_Sardinia](https://en.wikipedia.org/wiki/Iglesias,_Sardinia)
+---
 
 ## License
 
-This project is created for **educational purposes** and personal learning.
-
-
+This project is licensed under the **MIT License**.
 
