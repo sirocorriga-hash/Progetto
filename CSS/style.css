@@ -16,7 +16,7 @@ body {
         line-height: 2.0;
         margin: 0;
         padding: 20px;
-        background-color: rgb(248, 248, 248);
+        background-color: white
         color: rgb(3, 12, 62);
         text-align: center;    
 }
@@ -43,7 +43,7 @@ body {
     background-color: rgb(2, 9, 48);
     border-radius: 8px;
     color: white;
-    border: 2px solid rgb(3, 12, 62);
+    border: 2px solid white;
     text-align: left;
     
 }
@@ -53,6 +53,7 @@ body {
     min-width: 300px;
     padding: 20px;
     background-color: rgba(195, 9, 9, 0.918);
+    border: 2px solid white;
     border-radius: 8px;
 
    border: 2px solid rgb(3, 12, 62);
