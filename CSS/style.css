@@ -75,28 +75,30 @@ nav a:hover {
 .blocco { background-color: #223083; color: white; }
 .tagline { background-color: rgba(195, 9, 9, 0.918); color: white; }
 
-.gallery {
-    display: flex;
-    justify-content: left;
-    flex-wrap: wrap;
-    gap: 10px;
-}
 
-.gallery {
-    display: flex;          
-    flex-direction: row;   
-    justify-content: center;
-    gap: 20px;              
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px; 
     padding: 20px;
-    flex-wrap: wrap;       
+    justify-items: left;
 }
 
-.gallery img {
-    width: 400px;          
-    height: auto;          
-    border-radius: 8px;     
-    object-fit: cover;     
+.grid-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+    border-radius: 8px; 
+    transition: transform 0.3s ease; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
+
+.grid-container img:hover {
+    transform: scale(1.05);
+}
+
+
 
 iframe { 
     width: 90%; 
