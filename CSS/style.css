@@ -8,13 +8,13 @@ header {
     border: 0;
     background-color: white;
     color: #223083;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .header-content {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
     gap: 20px;
     padding: 10px;
     font-size: 50px;
@@ -34,7 +34,7 @@ nav a {
     text-decoration: none; 
     color: #223083;    
     font-weight: bold;
-    font-size: 40px;
+    font-size: 30px;
     transition: color 0.3s; 
 }
 
@@ -94,7 +94,7 @@ body {
 
 
 .gallery img {
-    max-width: 500px;
+    max-width: 400px;
     width: 100%;
     height: auto;
     border-radius: 4px;
