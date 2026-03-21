@@ -53,9 +53,9 @@ nav a:hover {
 .container { 
     display: flex; 
     flex-wrap: wrap; 
-    justify-content: center; /* Centra i blocchi se non occupano tutta la riga */
+    justify-content: center;
     gap: 20px; 
-    max-width: 1200px; /* Limita la larghezza massima per una lettura migliore */
+    max-width: 1200px; 
     margin: 20px auto; 
     padding: 0 20px; 
 }
@@ -69,7 +69,7 @@ nav a:hover {
     text-align: left; 
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centra il contenuto internamente */
+    justify-content: center; 
 }
 
 .blocco { background-color: #223083; color: white; }
@@ -83,19 +83,19 @@ nav a:hover {
 }
 
 .gallery {
-    display: flex;          /* Attiva il layout a riga */
-    flex-direction: row;    /* Dispone gli elementi in orizzontale */
-    justify-content: center; /* Centra le magliette nella pagina */
-    gap: 20px;              /* Crea spazio tra una maglietta e l'altra */
+    display: flex;          
+    flex-direction: row;   
+    justify-content: center;
+    gap: 20px;              
     padding: 20px;
-    flex-wrap: wrap;        /* Se lo schermo è piccolo, le manda a capo automaticamente */
+    flex-wrap: wrap;       
 }
 
 .gallery img {
-    width: 400px;           /* Imposta una larghezza fissa (regolabile) */
-    height: auto;           /* Mantiene le proporzioni originali */
-    border-radius: 8px;     /* Opzionale: arrotonda leggermente gli angoli */
-    object-fit: cover;      /* Assicura che l'immagine riempia bene lo spazio */
+    width: 400px;          
+    height: auto;          
+    border-radius: 8px;     
+    object-fit: cover;     
 }
 
 iframe { 
