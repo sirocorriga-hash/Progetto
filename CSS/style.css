@@ -12,6 +12,8 @@ body {
     text-align: center; 
 }
 
+
+
 header { 
     width: 100%;
     background-color: white; 
@@ -60,7 +62,7 @@ nav a:hover {
     padding: 0 20px; 
 }
 
-.blocco, .tagline { 
+.blocco, .tagline{ 
     flex: 1; 
     min-width: 300px; 
     padding: 30px; 
