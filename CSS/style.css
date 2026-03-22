@@ -2,15 +2,7 @@
     box-sizing: border-box; 
 }
 
-body { 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    font-size: 18px; 
-    line-height: 1.6; 
-    margin: 0; 
-    background-color: white; 
-    color: rgb(3, 12, 62); 
-    text-align: center; 
-}
+
 
 
 
@@ -28,6 +20,16 @@ header {
     gap: 20px; 
     font-size: clamp(30px, 5vw, 50px); 
     margin: 0 auto;
+}
+
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 18px; 
+    line-height: 1.6; 
+    margin: 0; 
+    background-color: white; 
+    color: rgb(3, 12, 62); 
+    text-align: center; 
 }
 
 nav ul { 
@@ -87,6 +89,8 @@ nav a:hover {
     justify-items: left;
 }
 
+
+
 .grid-container img {
     width: 100%;
     height: auto;
@@ -99,7 +103,6 @@ nav a:hover {
 .grid-container img:hover {
     transform: scale(1.05);
 }
-
 
 
 iframe { 
