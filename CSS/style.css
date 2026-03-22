@@ -3,9 +3,6 @@
 }
 
 
-
-
-
 header { 
     width: 100%;
     background-color: white; 
@@ -59,7 +56,7 @@ nav a:hover {
     flex-wrap: wrap; 
     justify-content: center;
     gap: 20px; 
-    max-width: 1200px; 
+    max-width: 1400px; 
     margin: 20px auto; 
     padding: 0 20px; 
 }
@@ -118,6 +115,25 @@ footer {
     padding: 20px; 
     font-size: 12px; 
 }
+
+.container-fluid {
+    max-width: 1600px; 
+    margin: 0 auto;
+}
+
+.gallery-img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.gallery-img:hover {
+    transform: scale(2.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
 
 @media (max-width: 600px) { 
     .container { flex-direction: column; }
