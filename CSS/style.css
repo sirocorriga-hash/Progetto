@@ -31,7 +31,7 @@ nav ul {
     gap: 30px;
     padding: 0;
     margin: 0;
-    align-items: center;
+    align-items: left;
 }
 
 nav a {
@@ -186,34 +186,10 @@ footer {
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
-/* Foundation Improvements */
 
-body {
-  font-family: Arial, sans-serif;
+.form-container {
+  max-width: 1200px;
 }
-
-/* Improve spacing rhythm */
-
-legend {
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
-button {
-  margin-top: 0.5rem;
-}
-
-/* Improve focus visibility */
-
-input:focus,
-textarea:focus,
-button:focus {
-  outline: 3px solid #ff9800;
-  outline-offset: 2px;
-}
-
-
-
 @media (max-width: 600px) { 
     .container { flex-direction: column; }
     .header-content { flex-direction: column; gap: 10px; }

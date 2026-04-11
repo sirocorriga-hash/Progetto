@@ -2,138 +2,129 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="History of Cagliari Calcio 1970 championship season">
-    <title>Cagliari FC 1970</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="History of Cagliari Calcio 1970 championship season">
+  <title>Cagliari FC 1970</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
-          rel="stylesheet" 
-          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
-          crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="CSS/style.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="CSS/style.css">
 </head>
 
-<body>
+<body class="bg-light d-flex flex-column min-vh-300">
 
-<header>
-    <div class="header-content">
-        <a href="index.html">
-            <img src="immagini/Immagine-0.png" alt="Cagliari logo" class="logo">
-        </a>
-        <nav aria-label="Main navigation">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="history.html">The History</a></li>
-                <li><a href="team.html">The team</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+  <!-- Header -->
+  <header>
+    <div class="header-content d-flex justify-content-between align-items-center p-3">
+      <a href="index.html">
+        <img src="immagini/Immagine-0.png" alt="Cagliari logo" class="logo">
+      </a>
+
+      <nav aria-label="Main navigation">
+        <ul class="list-unstyled d-flex gap-3 m-0">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="history.html">The History</a></li>
+          <li><a href="team.html">The Team</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-</header>
+  </header>
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
+  <!-- Main -->
+  <main class="container py-5 flex-grow-1">
+    <form method="post"
+          action="#"
+          class="p-4 border rounded bg-white mx-auto form-container">
 
-  <body class="bg-light py-5">
-    <main class="container">
-      <form
-        method="post"
-        action="#"
-        class="p-4 border rounded bg-white mx-auto"
-        style="max-width: 600px"
-      >
-        <fieldset>
-          <legend class="mb-3">Contact Information</legend>
+      <fieldset>
+        <legend class="mb-3">Contact Information</legend>
 
-          <!-- Full Name -->
-          <div class="mb-3">
-            <label for="name" class="form-label">Full Name</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              class="form-control"
-              required
-              minlength="2"
-              maxlength="50"
-              aria-describedby="nameHelp"
-            />
-            <small id="nameHelp" class="form-text text-muted">
-              Please enter your full name.
-            </small>
+        <!-- Full Name -->
+        <div class="mb-3">
+          <label for="name" class="form-label">Full Name</label>
+          <input type="text"
+                 id="name"
+                 name="name"
+                 class="form-control"
+                 required
+                 minlength="2"
+                 maxlength="50"
+                 aria-describedby="nameHelp">
+          <div id="nameHelp" class="form-text">
+            Please enter your full name.
           </div>
+        </div>
 
-          <!-- Email -->
-          <div class="mb-3">
-            <label for="email" class="form-label">Email Address</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              class="form-control"
-              required
-              aria-describedby="emailHelp"
-            />
-            <small id="emailHelp" class="form-text text-muted">
-              We will never share your email.
-            </small>
+        <!-- Email -->
+        <div class="mb-3">
+          <label for="email" class="form-label">Email Address</label>
+          <input type="email"
+                 id="email"
+                 name="email"
+                 class="form-control"
+                 required
+                 aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">
+            We will never share your email.
           </div>
+        </div>
 
-          <!-- Subject -->
-          <div class="mb-3">
-            <label for="subject" class="form-label">Subject</label>
-            <input
-              type="text"
-              id="subject"
-              name="subject"
-              class="form-control"
-              required
-              pattern="[A-Za-z ]+"
-              title="Letters only"
-              aria-describedby="subjectHelp"
-            />
-            <small id="subjectHelp" class="form-text text-muted">
-              Letters and spaces only.
-            </small>
+        <!-- Subject -->
+        <div class="mb-3">
+          <label for="subject" class="form-label">Subject</label>
+          <input type="text"
+                 id="subject"
+                 name="subject"
+                 class="form-control"
+                 required
+                 pattern="[A-Za-z ]+"
+                 title="Letters only"
+                 aria-describedby="subjectHelp">
+          <div id="subjectHelp" class="form-text">
+            Letters and spaces only.
           </div>
+        </div>
 
-          <!-- Message -->
-          <div class="mb-3">
-            <label for="message" class="form-label">Message</label>
-            <textarea
-              id="message"
-              name="message"
-              rows="5"
-              class="form-control"
-              required
-              minlength="10"
-              maxlength="500"
-              aria-describedby="messageHelp"
-            ></textarea>
-            <small id="messageHelp" class="form-text text-muted">
-              Minimum 10 characters.
-            </small>
+        <!-- Message -->
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea id="message"
+                    name="message"
+                    rows="5"
+                    class="form-control"
+                    required
+                    minlength="10"
+                    maxlength="500"
+                    aria-describedby="messageHelp"></textarea>
+          <div id="messageHelp" class="form-text">
+            Minimum 10 characters.
           </div>
-        </fieldset>
+        </div>
+      </fieldset>
 
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-    </main>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </main>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+  <!-- Footer -->
+  <footer class="text-center mt-auto py-3">
+    <img src="immagini/Immagine-0.png"
+         loading="lazy"
+         alt="Cagliari logo"
+         width="40"
+         height="40">
+    <p class="mt-2 mb-0">
+      © 2026 Cagliari Calcio Football Club. All rights reserved.
+    </p>
+  </footer>
 
-  <footer>
-    <img src="immagini/Immagine-0.png" loading="lazy" alt="Cagliari logo" width="40" height="40">
-    <p>Copyright © 2026 Cagliari Calcio Football Club. All rights reserved.</p>
-</footer>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-
-    
 </body>
-
 </html>
