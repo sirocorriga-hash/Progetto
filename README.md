@@ -125,7 +125,7 @@ Possible future developments include:
 
 ## Author
 
-[Your Name] - UCD Diploma Web Development Project
+[Siro Corriga] - UCD Diploma Web Development Project
 
 ---
 
